@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Meal Prepper</title>
+
+        <!-- JS -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="scripts/get_meals.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="style/output.css">
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous"> -->
+    </head>
+
+<!-- HTML -->
+<body>
+
+  <div class="container">
+
+    <div class="row_header">
+      <h2 id="user_meal_plan"></h2>
+    </div>
+
+
+
+    <script>
+      let params = (new URL(document.location)).searchParams;
+      var user = params.get("user");
+      var ingredients = params.get("ingredients");
+      var restrictions = params.get("restrictions");
+      // example url -- http://localhost:8000/output.html?user=alia&ingredients=yogurt,noodles,lettuce,tomato,cucumber,egg,bread,tuna,rice,green_onion,shrimp,garlic,cheese&restrictions=yogurt
+      document.getElementById("user_meal_plan").innerHTML = user.toUpperCase() + "'S MEAL PLAN";
+      get_meals(ingredients,restrictions);
+    </script>
+
+    <div class="row">
+      <div class="col" id="meal-day-1">
+        <h3>MONDAY</h3>
+
+        <div id ="meal">
+          <h4>BREAKFAST</h4>
+          <div id="b-meal-pic-1"></div>
+          <div id="b-details-1"></div>
+        </div>
+
+        <div id ="meal">
+          <h4>LUNCH</h4>
+          <div id="l-meal-pic-1"></div>
+          <div id="l-details-1"></div>
+        </div>
+
+        <div id ="meal">
+          <h4>DINNER</h4>
+          <div id="d-meal-pic-1"></div>
+          <div id="d-details-1"></div>
+        </div>
+
+      </div>
+
+      <div class="col" id="meal-day-2">
+        <h3>TUESDAY</h3>
+        <div id ="meal">
+          <h4>BREAKFAST</h4>
+          <div id="b-meal-pic-2"></div>
+          <div id="b-details-2"></div>
+        </div>
+
+        <div id ="meal">
+          <h4>LUNCH</h4>
+          <div id="l-meal-pic-2"></div>
+          <div id="l-details-2"></div>
+        </div>
+
+        <div id ="meal">
+          <h4>DINNER</h4>
+          <div id="d-meal-pic-2"></div>
+          <div id="d-details-2"></div>
+        </div>
+      </div>
+
+      <div class="col" id="meal-day-3">
+        <h3>WEDNESDAY</h3>
+        <div id ="meal">
+          <h4>BREAKFAST</h4>
+          <div id="b-meal-pic-3"></div>
+          <div id="b-details-3"></div>
+        </div>
+
+        <div id ="meal">
+          <h4>LUNCH</h4>
+          <div id="l-meal-pic-3"></div>
+          <div id="l-details-3"></div>
+        </div>
+
+        <div id ="meal">
+          <h4>DINNER</h4>
+          <div id="d-meal-pic-3"></div>
+          <div id="d-details-3"></div>
+        </div>
+      </div>
+    <div>
+
+    </div>
+
+    <div id="button_div">
+      <img id="next" src="src/right.png" alt="next">
+    </div>
+    </div>
+
+
+  </div> <!-- end container -->
+
+  <div class="bottom_container">
+    <button class="about" id="menu">Main Menu
+    </button>
+  </div>
+
+</body>
+
+<script>
+   document.getElementById("menu").onclick = function(){
+    location.href = "input.html?user=" + user + "&ingredients=" + ingredients + "&restrictions=" + restrictions;
+  };
+  document.getElementById("button_div").onclick = function(){
+   location.href = "output-2.html?user=" + user + "&ingredients=" + ingredients + "&restrictions=" + restrictions;
+ };
+</script>
+
+</html>

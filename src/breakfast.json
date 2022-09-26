@@ -1,0 +1,101 @@
+{
+  "yogurt": {
+    "icon": "src/yogurt.png",
+    "ingredients": ["yogurt"],
+    "calories": 200,
+    "cook time": 10,
+    "recipe": "https://www.chelseasmessyapron.com/top-10-favorite-ways-top-yogurt-bowl/"
+  },
+  "fruit salad": {
+    "icon": "src/salad.png",
+    "ingredients": ["blueberry", "strawberry", "lemon", "honey", "grapes"],
+    "calories": 120,
+    "cook time": 20,
+    "recipe": "https://www.delish.com/cooking/recipe-ideas/a19609963/easy-fruit-salad-recipe/"
+  },
+  "salad": {
+    "icon": "src/salad.png",
+    "ingredients": ["lettuce", "tomato", "cucumber"],
+    "calories": 400,
+    "cook time": 10,
+    "recipe": "https://www.gimmesomeoven.com/everyday-salad-recipe/"
+  },
+  "toast": {
+    "icon": "src/toast.png",
+    "ingredients": ["bread", "egg"],
+    "calories": 300,
+    "cook time": 5,
+    "recipe": "https://www.indianhealthyrecipes.com/egg-bread-toast-recipe/"
+  },
+  "avocado toast": {
+    "icon": "src/avo_toast.png",
+    "ingredients":["avocado", "bread"],
+    "calories": 230,
+    "cook time": 5,
+    "recipe": "https://cookieandkate.com/avocado-toast-recipe/"
+  },
+  "potatoes": {
+    "icon": "src/potato.png",
+    "ingredients":["potato"],
+    "calories": 200,
+    "cook time": 30,
+    "recipe": "https://www.pillsbury.com/recipes/easy-oven-roasted-potatoes/fbd35018-9c25-4b44-a11a-16b31c21333c"
+  },
+  "omelette": {
+    "icon": "src/omelette.png",
+    "ingredients":["egg", "milk"],
+    "calories": 320,
+    "cook time": 5,
+    "recipe": "https://www.simplyrecipes.com/recipes/how_to_make_an_omelet/"
+  },
+  "hard boiled eggs": {
+    "icon": "src/egg.png",
+    "ingredients":["egg"],
+    "calories": 50,
+    "cook time": 10,
+    "recipe": "https://www.simplyrecipes.com/recipes/how_to_make_perfect_hard_boiled_eggs/"
+  },
+  "cream cheese bagel": {
+    "icon": "src/bagel.png",
+    "ingredients":["bagel", "cream cheese"],
+    "calories": 280,
+    "cook time": 3,
+    "recipe": "https://www.melaniecooks.com/toasting-bagels-air-fryer/26072/"
+  },
+  "pancakes": {
+    "icon": "src/pancake.png",
+    "ingredients":["banana", "egg"],
+    "calories": 190,
+    "cook time": 15,
+    "recipe": "https://www.allrecipes.com/recipe/20334/banana-pancakes-i/"
+  },
+  "breakfast sandwich": {
+    "icon": "src/bagel_sand.png",
+    "ingredients":["bacon","egg","cheese","bagel"],
+    "calories": 340,
+    "cook time": 10,
+    "recipe": "https://natashaskitchen.com/breakfast-sandwich/"
+  },
+  "breakfast burrito": {
+    "icon": "src/burrito.png",
+    "ingredients":["tortilla", "egg", "beans", "rice", "avocado"],
+    "calories": 450,
+    "cook time": 40,
+    "recipe": "https://www.pillsbury.com/recipes/easy-breakfast-burritos/2fd0666e-79c3-40e8-a375-7be8e6db7360"
+  },
+  "fruits": {
+    "icon": "src/fruits.png",
+    "ingredients":["apple"],
+    "calories": 95,
+    "cook time": 0,
+    "recipe": ""
+  },
+  "soup": {
+    "icon": "src/soup.png",
+    "ingredients":["celery", "carrot", "potato"],
+    "calories": 255,
+    "cook time": 40,
+    "recipe": "https://www.loveandlemons.com/soup-recipes/"
+  }
+
+}

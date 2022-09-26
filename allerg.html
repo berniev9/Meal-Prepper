@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Meal Prepper</title>
+
+        <!-- JS -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="style/item.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+
+    </head>
+
+
+    <body>
+        <div class="row_header">
+          <h1>Select Food Allergies</h1>
+        </div>
+
+        <div class="contair">
+
+            <div class="list_contain">
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Apple</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Kiwi</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Cherry</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Lime</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Pinto Beans</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Chickpeas</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Crab</div>
+                    </button>
+                </div>
+
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Salmon</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Eggs</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Prawns</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Peanuts</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Eggplant</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Carrot</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Milk</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Ground Beef</div>
+                    </button>
+                </div>
+
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Pork</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Tilapia</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Mushrooms</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Tofu</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Pear</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Baguette</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Barley</div>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="click_ingr" id="protein">
+                        <div class ="ingredients-name">Coconut</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom_container">
+            <button class="about" id="menu">Main Menu
+            </button>
+            <button class="select-all" id="select-all">Select All
+            </button>
+        </div>
+    </body>
+</html>
+
+<script>
+  let params = (new URL(document.location)).searchParams;
+  var user = params.get("user");
+  var ingredients = params.get("ingredients");
+  var restrictions = params.get("restrictions");
+
+  var click_ingrs = document.getElementsByClassName("click_ingr");
+  var ingrs = document.getElementsByClassName("ingredients-name");
+  for (var i = 0; i < click_ingrs.length; i++) {
+    let cur = ingrs[i];
+    let cur_button = click_ingrs[i];
+    if (restrictions.includes(cur.innerHTML.toLowerCase())) {
+      cur_button.style.border = "3px solid white";
+    }
+    else {
+      cur_button.style.border = "";
+    }
+    click_ingrs[i].onclick = function(){
+      if (cur_button.style.border == "") {
+        cur_button.style.border = "3px solid white";
+        if (restrictions != "") {
+          restrictions = restrictions + "," + cur.innerHTML.toLowerCase();
+        } else {
+          restrictions = restrictions + cur.innerHTML.toLowerCase();
+        }
+      }
+      else {
+        cur_button.style.border = "";
+        restrictions = restrictions.replace(cur.innerHTML.toLowerCase() + ",", "");
+        restrictions = restrictions.replace(cur.innerHTML.toLowerCase(), "");
+      }
+    };
+  }
+
+  document.getElementById("menu").onclick = function(){
+    location.href = "input.html?user=" + user + "&ingredients=" + ingredients + "&restrictions=" + restrictions;
+  };
+
+
+  var select = document.getElementById("select-all");
+  if (restrictions.includes("all")) {
+    select.style.border = "3px solid white";
+  }
+  else {
+    select.style.border = "";
+  }
+  select.onclick = function(){
+    if (select.style.border == "") {
+      if (restrictions != "") {
+        restrictions = restrictions + ",all";
+      } else {
+        restrictions = restrictions + "all";
+      }
+      for (var i = 0; i < click_ingrs.length; i++) {
+          select.style.border = "3px solid white";
+          click_ingrs[i].style.border = "3px solid white";
+          if (!restrictions.includes(ingrs[i].innerHTML.toLowerCase())){
+            if (restrictions != "") {
+              restrictions = restrictions + "," + ingrs[i].innerHTML.toLowerCase();
+            } else {
+              restrictions = restrictions + ingrs[i].innerHTML.toLowerCase();
+            }
+          }
+      }
+    }
+    else {
+      restrictions = restrictions.replace("all,", "");
+      restrictions = restrictions.replace("all", "");
+      for (var i = 0; i < click_ingrs.length; i++) {
+        select.style.border = "";
+        click_ingrs[i].style.border = "";
+        restrictions = restrictions.replace(ingrs[i].innerHTML.toLowerCase() + ",", "");
+        restrictions = restrictions.replace(ingrs[i].innerHTML.toLowerCase(), "");
+      }
+    }
+  };
+</script>

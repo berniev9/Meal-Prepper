@@ -1,0 +1,128 @@
+{
+    "tuna sandwich": {
+        "icon": "src/sandwhich.png",
+        "ingredients":["tuna", "bread"],
+        "calories": 400,
+        "cook time": 10,
+        "recipe": "https://www.simplyrecipes.com/recipes/tuna_salad_sandwich/"
+    },
+    "salad": {
+        "icon": "src/salad.png",
+        "ingredients": ["lettuce", "tomato", "cucumber"],
+        "calories": 400,
+        "cook time": 10,
+        "recipe": "https://www.gimmesomeoven.com/everyday-salad-recipe/"
+      },
+    "pasta salad": {
+        "icon": "src/salad.png",
+        "ingredients":["spaghetti", "tomato"],
+        "calories": 360,
+        "cook time": 20,
+        "recipe": "https://www.inspiredtaste.net/38019/easy-pasta-salad-recipe/"
+    },
+    "ham and cheese sandwich":{
+        "icon": "src/sandwich_1.png",
+        "ingredients":["ham", "cheese", "bread"],
+        "calories": 350,
+        "cook time": 15,
+        "recipe": "https://www.delish.com/cooking/recipe-ideas/a26870550/ham-and-cheese-sandwich-recipe/"
+    },
+    "egg salad":{
+        "icon": "src/eggs.png",
+        "ingredients":["egg", "mayonnaise", "bread"],
+        "calories": 340,
+        "cook time": 35,
+        "recipe": "https://www.allrecipes.com/recipe/147103/delicious-egg-salad-for-sandwiches/"
+    },
+    "bbq chicken bowl": {
+        "icon": "src/turkey.png",
+        "ingredients":["chicken", "lettuce", "tomato", "onion"],
+        "calories": 630,
+        "cook time": 20,
+        "recipe": "https://www.budgetbytes.com/bbq-chicken-burrito-bowls/"
+    },
+    "tuna melt": {
+        "icon": "src/tuna.png",
+        "ingredients":["tuna", "mayonnaise", "onion", "bread"],
+        "calories": 560,
+        "cook time": 20,
+        "recipe": "https://www.simplyrecipes.com/recipes/tarragon_tuna_melt/"
+    },
+    "peanut butter and jelly sandwich": {
+        "icon": "src/sandwich_1.png",
+        "ingredients":["peanut_butter", "jam", "bread"],
+        "calories": 390,
+        "cook time": 2,
+        "recipe": "https://www.food.com/recipe/traditional-peanut-butter-and-jelly-243965"
+    },
+    "bean and vegetable soup":{
+        "icon": "src/soup.png",
+        "ingredients":["tuna", "bean", "bacon", "carrot"],
+        "calories": 295,
+        "cook time": 35,
+        "recipe": "https://feelgoodfoodie.net/recipe/white-bean-soup/"
+    },
+    "avocado chicken salad":{
+        "icon": "src/salad.png",
+        "ingredients":["avocado", "chicken", "tomato", "onion"],
+        "calories": 250,
+        "cook time": 20,
+        "recipe": "https://gimmedelicious.com/avocado-chicken-salad/"
+    },
+    "pizza":{
+        "icon": "src/pizza.png",
+        "ingredients":["tomato", "bread"],
+        "calories": 120,
+        "cook time": 1,
+        "recipe": "https://www.acouplecooks.com/homemade-cheese-pizza/"
+    },
+    "noodles":{
+        "icon": "src/ramen.png",
+        "ingredients":["spaghetti", "chicken"],
+        "calories": 1,
+        "cook time": 60,
+        "recipe": ""
+    },
+    "fried rice": {
+        "icon": "src/fried-rice.png",
+        "ingredients":["rice", "peas", "carrots"],
+        "calories": 220,
+        "cook time": 15,
+        "recipe": "https://www.gimmesomeoven.com/fried-rice-recipe/"
+    },
+    "mashed potatoes":{
+        "icon": "src/potato.png",
+        "ingredients":["potato"],
+        "calories": 200,
+        "cook time": 30,
+        "recipe": "https://www.recipetineats.com/mashed-potato/"
+    },
+    "chicken wrap":{
+        "icon": "src/burrito.png",
+        "ingredients":["tortilla", "chicken"],
+        "calories": 300,
+        "cook time": 30,
+        "recipe": "https://www.simplejoy.com/chicken-wrap/"
+    },
+    "bagel":{
+        "icon": "src/bagel.png",
+        "ingredients":["bagel"],
+        "calories": 280,
+        "cook time": 3,
+        "recipe": "https://www.melaniecooks.com/toasting-bagels-air-fryer/26072/"
+    },
+    "veggies":{
+        "icon": "src/vegetables.png",
+        "ingredients":["carrot", "onion"],
+        "calories": 60,
+        "cook time": 0,
+        "recipe": ""
+    },
+    "soup": {
+      "icon": "src/soup.png",
+      "ingredients":["celery", "carrot", "potato"],
+      "calories": 255,
+      "cook time": 40,
+      "recipe": "https://www.loveandlemons.com/soup-recipes/"
+    }
+}

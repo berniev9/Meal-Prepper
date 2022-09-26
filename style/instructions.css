@@ -1,0 +1,81 @@
+html {
+    background-color:#e1b89490;
+}
+
+/*  HEADER      */
+
+.header {
+    background-color: #875c36ba;
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    color: #e9e2d7;
+    height: 90px;
+    margin-bottom: 0px;
+}
+
+/* Body of site */
+
+.instructions {
+    background-color: #e1b89490;
+    margin-bottom: 0px;
+    padding: 50px;
+}
+
+.h33_intro{
+    font-family: 'Merriweather';
+    font-weight: lighter;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+
+}
+
+.h33{
+    font-family: 'Merriweather';
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.h33_bold{
+    font-family: 'Merriweather';
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+/*  Bottom part of the site  */
+
+.bottom_container {
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#875c36b9;
+}
+
+.menuButton {
+    position: absolute;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    background-color: #e9e2d7ff;
+    border-radius: 12px;
+    border-width: 0px;
+    font-size: auto;
+    height: 40px;
+    width: 150px;
+    color: #875c36;
+    bottom: 30%;
+    left: 10px;
+    border: 1px solid white;
+}
+
+.menuButton:hover {
+    background-color: #875c36;
+    color: #e9e2d7ff;
+}

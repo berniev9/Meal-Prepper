@@ -1,0 +1,114 @@
+{
+    "salmon": {
+        "icon": "src/salmon.png",
+        "ingredients":["salmon"],
+        "calories": 481,
+        "cook time": 18,
+        "recipe": "https://www.thechunkychef.com/honey-garlic-glazed-salmon/"
+    },
+    "fried rice": {
+        "icon": "src/fried-rice.png",
+        "ingredients":["rice", "peas", "carrots"],
+        "calories": 220,
+        "cook time": 15,
+        "recipe": "https://www.gimmesomeoven.com/fried-rice-recipe/"
+    },
+    "pasta": {
+        "icon": "src/spaghetti.png",
+        "ingredients":["spaghetti", "tomato"],
+        "calories": 290,
+        "cook time": 20,
+        "recipe": "https://www.acouplecooks.com/homemade-pasta-marinara/"
+    },
+    "noodles": {
+        "icon": "src/ramen.png",
+        "ingredients":["spaghetti", "egg"],
+        "calories": 200,
+        "cook time": 30,
+        "recipe": "https://www.allrecipes.com/recipe/11991/egg-noodles/"
+    },
+    "pizza": {
+        "icon": "src/pizza.png",
+        "ingredients":["bread", "cheese", "pepperoni"],
+        "calories": 310,
+        "cook time": 25,
+        "recipe": "https://www.simplyrecipes.com/recipes/homemade_pepperoni_pizza/"
+    },
+    "soup": {
+        "icon": "src/soup.png",
+        "ingredients":["celery", "carrot", "potato"],
+        "calories": 130,
+        "cook time": 40,
+        "recipe": "https://www.inspiredtaste.net/37646/vegetable-soup-recipe/"
+    },
+    "steak": {
+        "icon": "src/steak.png",
+        "ingredients":["beef"],
+        "calories": 540,
+        "cook time": 20,
+        "recipe": "https://natashaskitchen.com/pan-seared-steak/"
+    },
+    "grilled chicken": {
+        "icon": "src/chicken-leg.png",
+        "ingredients":["chicken"],
+        "calories": 160,
+        "cook time": 25,
+        "recipe": "https://kristineskitchenblog.com/grilled-chicken-recipe/"
+    },
+    "steamed egg": {
+        "icon": "src/egg.png",
+        "ingredients":["egg", "green_onion"],
+        "calories": 150,
+        "cook time": 15,
+        "recipe": "https://kristineskitchenblog.com/grilled-chicken-recipe/"
+    },
+    "hero sub":{
+        "icon": "src/sandwhich.png",
+        "ingredients":["bread", "cheese", "lettuce", "tomato", "ham"],
+        "calories": 450,
+        "cook time": 15,
+        "recipe": "https://www.food.com/recipe/hero-sandwich-129844"
+    },
+    "creamy shrimp garlic": {
+        "icon": "src/shrimp.png",
+        "ingredients":["shrimp", "garlic", "cheese"],
+        "calories": 480,
+        "cook time": 20,
+        "recipe": "https://cafedelites.com/creamy-garlic-shrimp/"
+    },
+    "mashed potatoes":{
+        "icon": "src/potato.png",
+        "ingredients":["potato"],
+        "calories": 200,
+        "cook time": 30,
+        "recipe": "https://www.recipetineats.com/mashed-potato/"
+    },
+    "chicken wrap":{
+        "icon": "src/burrito.png",
+        "ingredients":["tortilla", "chicken"],
+        "calories": 300,
+        "cook time": 30,
+        "recipe": "https://www.simplejoy.com/chicken-wrap/"
+    },
+    "ham and cheese sandwich":{
+        "icon": "src/sandwich_1.png",
+        "ingredients":["ham", "cheese", "bread"],
+        "calories": 350,
+        "cook time": 15,
+        "recipe": "https://www.delish.com/cooking/recipe-ideas/a26870550/ham-and-cheese-sandwich-recipe/"
+    },
+    "egg salad":{
+        "icon": "src/eggs.png",
+        "ingredients":["egg", "mayonnaise", "bread"],
+        "calories": 340,
+        "cook time": 35,
+        "recipe": "https://www.allrecipes.com/recipe/147103/delicious-egg-salad-for-sandwiches/"
+    },
+    "bbq chicken bowl": {
+        "icon": "src/turkey.png",
+        "ingredients":["chicken", "lettuce", "tomato", "onion"],
+        "calories": 630,
+        "cook time": 20,
+        "recipe": "https://www.budgetbytes.com/bbq-chicken-burrito-bowls/"
+    }
+}

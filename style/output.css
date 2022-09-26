@@ -1,0 +1,158 @@
+html{
+  background-color:#e1b89490 ;
+}
+
+.row_header{
+  background-color: #875c36ba;
+  text-align: center;
+  padding: 10px;
+  border-color: white;
+  font-family: 'Merriweather';
+  font-weight: bold;
+  color: #e9e2d7;
+  height: 90px;
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* For each weekday box */
+.col {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* MON & FRI COLORS */
+#meal-day-1 #meal{
+  background-color: #ffffffad;
+}
+
+#meal-day-1 h3{
+  text-align: center;
+  font-size: 27px;
+  color: #7e918f;
+}
+
+#meal-day-1 {
+  background-color: #b1c5c3ff;
+}
+
+/* TUES & SAT COLORS */
+#meal-day-2 #meal {
+  background-color: #ffffffad;
+}
+
+#meal-day-2 h3{
+  font-size: 27px;
+  text-align: center;
+  color: #e1b894;
+}
+
+#meal-day-2 {
+  background-color: #e9e2d7ff;
+}
+
+/* WED & SUN COLORS */
+#meal-day-3 #meal {
+  background-color: #e9e2d7ff;
+}
+
+#meal-day-3 h3 {
+  text-align: center;
+  font-size: 27px;
+  color: #875c36
+}
+
+#meal-day-3 {
+  background-color: #e1b894ff;
+}
+
+/* THURS COLORS */
+#meal-day #meal{
+  background-color: #e9e2d7ff;
+}
+
+#meal-day h3 {
+  text-align: center;
+  font-size: 27px;
+  color: #7e918f;
+}
+
+#meal-day {
+  background-color: #b1c5c37a;
+}
+
+/* INSIDE THE WEEKDAY */
+#meal {
+  margin: 20px;
+  width: 25em;
+  height: 13em;
+}
+
+img {
+  width: 50px;
+  height: auto;
+  max-width: 100%;
+  max-height: auto;
+}
+
+#details {
+  white-space:pre;
+}
+
+/* button */
+.bottom_container {
+  height: 90px;
+  position: relative;
+  background-color:#875c36b9 ;
+}
+
+.about {
+  position: absolute;
+  font-family: 'Merriweather';
+  font-weight: bold;
+  background-color: #e9e2d7ff;
+  border-radius: 12px;
+  border-width: 0px;
+  font-size: auto;
+  height: 40px;
+  width: 150px;
+  color: #875c36;
+  bottom: 30%;
+  left: 10px;
+  border: 1px solid white;
+}
+
+.about:hover{
+  background-color: #875c36;
+  color: #e9e2d7ff;
+}
+
+/* button */
+#next {
+  margin: auto;
+  display: block;
+  height: 50px;
+  padding: 10px;
+}
+
+#button_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

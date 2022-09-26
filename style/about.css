@@ -1,0 +1,111 @@
+/* html {
+    background-color:#e1b89490;
+} */
+
+/*  HEADER      */
+
+.header {
+    background-color: #875c36ba;
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    color: #e9e2d7;
+    height: 90px;
+    margin-bottom: 0px;
+}
+
+/* Site content */
+.creators{
+    background-color:#e1b89490;
+}
+
+.creators_heading {
+    text-align-last: center;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    color: #704523;
+    font-size: 30px;
+    padding: 20px;
+    margin: 0%;
+    /* padding-bottom: 50px; */
+}
+
+.person {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+}
+
+.name {
+    writing-mode: vertical-lr;
+    /* transform: rotate(180deg); */
+    text-align-last: center;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    color: #704523;
+    font-size: 30px;
+    padding: 20px;
+    margin: 0%;
+    text-align: center;
+}
+
+#photo {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    left: 10 px;
+    margin-left: 25px;
+}
+
+img { 
+    width: auto;
+    height: 80%;
+    max-width: 50%;
+    border: 5px solid #555;
+}
+
+#blurb {
+    background-color: #b1c5c3ff;
+    width: 60%;
+    height: 280px;
+    position: absolute;
+    margin-left: 30%;
+    align-self: center;
+    text-align: left;
+    font-family: 'Merriweather';
+    padding: 25px;
+}
+
+/*  Bottom part of the site  */
+
+.bottom_container {
+    height: 90px;
+    position: relative;
+    background-color:#875c36b9 ;
+}
+
+.menuButton {
+    position: absolute;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    background-color: #e9e2d7ff;
+    border-radius: 12px;
+    border-width: 0px;
+    font-size: auto;
+    height: 40px;
+    width: 150px;
+    color: #875c36;
+    bottom: 30%;
+    left: 10px;
+    border: 1px solid white;
+}
+
+.menuButton:hover {
+    background-color: #875c36;
+    color: #e9e2d7ff;
+}
